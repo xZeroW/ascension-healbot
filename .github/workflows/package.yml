@@ -1,0 +1,28 @@
+name: Package HealBot
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build addon archive
+        shell: bash
+        run: |
+          mkdir -p "$RUNNER_TEMP/HealBot"
+          rsync -a --exclude '.git' --exclude '.github' ./ "$RUNNER_TEMP/HealBot/"
+          (
+            cd "$RUNNER_TEMP"
+            zip -r "$GITHUB_WORKSPACE/HealBot.zip" HealBot
+          )
+
+      - name: Upload addon archive
+        uses: actions/upload-artifact@v4
+        with:
+          name: HealBot
+          path: HealBot.zip
+          if-no-files-found: error
