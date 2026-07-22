@@ -5347,11 +5347,11 @@ local HealBot_Debuff_RangeWarning_List = {
     HEALBOT_SPELL_RANGE,
 }
 function HealBot_Options_GetDebuffSpells_List(class)
-    return HealBot_Debuff_Spells[class]
+    return HealBot_Debuff_Spells[class] or {}
 end
 
 function HealBot_Options_GetRacialDebuffSpells_List(race)
-    return HealBot_Racial_Debuff_Spells[race]
+    return HealBot_Racial_Debuff_Spells[race] or {}
 end
 
 local DebuffSpells_List=nil
