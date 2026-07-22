@@ -2,7 +2,11 @@ name: Package HealBot
 
 on:
   push:
-  workflow_dispatch:
+    tags:
+      - 'v*'
+
+permissions:
+  contents: write
 
 jobs:
   package:
@@ -20,9 +24,8 @@ jobs:
             zip -r "$GITHUB_WORKSPACE/HealBot.zip" HealBot
           )
 
-      - name: Upload addon archive
-        uses: actions/upload-artifact@v4
+      - name: Create GitHub release
+        uses: softprops/action-gh-release@v2
         with:
-          name: HealBot
-          path: HealBot.zip
-          if-no-files-found: error
+          files: HealBot.zip
+          generate_release_notes: true
