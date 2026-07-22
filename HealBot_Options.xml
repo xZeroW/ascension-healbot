@@ -82,7 +82,7 @@
 			<OnEditFocusGained>self:HighlightText();</OnEditFocusGained>
 		</Scripts>
 	</EditBox>
-	<Frame name="HealBot_Options" toplevel="true" frameStrata="DIALOG" 
+	<Frame name="HealBot_Options" toplevel="true" frameStrata="DIALOG"
       movable="true" parent="UIParent" enableMouse="true" hidden="true">
 		<Size>
 			<AbsDimension x="495" y="555"/>
@@ -1534,13 +1534,13 @@
 					</Frame>
 				</Frames>
 			</Frame>
-            
-            
-            
-            
-            
-            
-            
+
+
+
+
+
+
+
 			<Frame name="HealBot_Options_Panel3" hidden="true" setAllPoints="true">
 				<Frames>
                     <Frame name="HealBot_Options_Skins" inherits="UIDropDownMenuTemplate">
@@ -1655,8 +1655,8 @@
                             </Frame>
                         </Frames>
                     </Frame>
-                    
-                    
+
+
 					<Frame name="HealBot_Options_SkinsFrameSelect">
 						<Size>
 							<AbsDimension y="118"/>
@@ -1719,7 +1719,7 @@
 								<BarTexture file="Interface\Addons\HealBot\Images\Tube"/>
 								<BarColor r="1" g="0.32" b="0.32"/>
 							</StatusBar>
-                            
+
                             <Button name="HealBot_SkinsFrameSelectHealingFrameb" inherits="UIPanelButtonTemplate">
                                 <Size>
                                     <AbsDimension x="82" y="18"/>
@@ -1765,7 +1765,7 @@
 								<BarTexture file="Interface\Addons\HealBot\Images\Tube"/>
 								<BarColor r="0.58" g="0.08" b="0.08"/>
 							</StatusBar>
-                            
+
                             <Button name="HealBot_SkinsFrameSelectHeadersFrameb" inherits="UIPanelButtonTemplate">
                                 <Size>
                                     <AbsDimension x="82" y="18"/>
@@ -1781,7 +1781,7 @@
                                     <OnClick>HealBot_Options_ShowSkinsPanel("HealBot_Options_HeadersSkinsFrame","HealBot_SkinsFrameSelectHeadersFrame")</OnClick>
                                 </Scripts>
                             </Button>
-                            
+
 							<StatusBar name="HealBot_SkinsFrameSelectHeadersFrame" toplevel="true">
 								<Size>
 									<AbsDimension x="82" y="18"/>
@@ -1812,7 +1812,7 @@
 								<BarTexture file="Interface\Addons\HealBot\Images\Tube"/>
 								<BarColor r="0.58" g="0.08" b="0.08"/>
 							</StatusBar>
-                           
+
                             <Button name="HealBot_SkinsFrameSelectBarsFrameb" inherits="UIPanelButtonTemplate">
                                 <Size>
                                     <AbsDimension x="82" y="18"/>
@@ -1858,7 +1858,7 @@
 								<BarTexture file="Interface\Addons\HealBot\Images\Tube"/>
 								<BarColor r="0.58" g="0.08" b="0.08"/>
 							</StatusBar>
-                          
+
                             <Button name="HealBot_SkinsFrameSelectIconsFrameb" inherits="UIPanelButtonTemplate">
                                 <Size>
                                     <AbsDimension x="82" y="18"/>
@@ -1904,7 +1904,7 @@
 								<BarTexture file="Interface\Addons\HealBot\Images\Tube"/>
 								<BarColor r="0.58" g="0.08" b="0.08"/>
 							</StatusBar>
-                          
+
                             <Button name="HealBot_SkinsFrameSelectAggroFrameb" inherits="UIPanelButtonTemplate">
                                 <Size>
                                     <AbsDimension x="82" y="18"/>
@@ -1996,7 +1996,7 @@
 								<BarTexture file="Interface\Addons\HealBot\Images\Tube"/>
 								<BarColor r="0.58" g="0.08" b="0.08"/>
 							</StatusBar>
-                            
+
                             <Button name="HealBot_SkinsFrameSelectChatFrameb" inherits="UIPanelButtonTemplate">
                                 <Size>
                                     <AbsDimension x="82" y="18"/>
@@ -2042,7 +2042,7 @@
 								<BarTexture file="Interface\Addons\HealBot\Images\Tube"/>
 								<BarColor r="0.58" g="0.08" b="0.08"/>
 							</StatusBar>
-                          
+
                             <Button name="HealBot_SkinsFrameSelectTextFrameb" inherits="UIPanelButtonTemplate">
                                 <Size>
                                     <AbsDimension x="82" y="18"/>
@@ -2088,7 +2088,7 @@
 								<BarTexture file="Interface\Addons\HealBot\Images\Tube"/>
 								<BarColor r="0.58" g="0.08" b="0.08"/>
 							</StatusBar>
-                          
+
                             <Button name="HealBot_SkinsFrameSelectIconTextFrameb" inherits="UIPanelButtonTemplate">
                                 <Size>
                                     <AbsDimension x="82" y="18"/>
@@ -2137,7 +2137,7 @@
 
                         </Frames>
                     </Frame>
-                    
+
 					<Frame name="HealBot_Options_IconTextSkinsFrame">
 						<Size>
 							<AbsDimension y="358"/>
@@ -2187,7 +2187,7 @@
 								</FontString>
 							</Layer>
 						</Layers>
-                        
+
 						<Frames>
 							<CheckButton name="HealBot_BarButtonShowHoTTextCount" inherits="SendMailRadioButtonTemplate">
 								<Anchors>
@@ -2291,8 +2291,8 @@
 							</Slider>
                         </Frames>
                     </Frame>
-                        
-                        
+
+
 					<Frame name="HealBot_Options_AggroSkinsFrame">
 						<Size>
 							<AbsDimension y="358"/>
@@ -2784,7 +2784,7 @@
 								</FontString>
 							</Layer>
 						</Layers>
-                        
+
 						<Frames>
 							<Frame name="HealBot_Options_SkinPartyRaidDefault" inherits="UIDropDownMenuTemplate" id="1">
 								<Anchors>
@@ -2899,8 +2899,8 @@
 									<OnLoad>HealBot_Options_SetText(self,HEALBOT_OPTIONS_PANELSOUNDS)</OnLoad>
 									<OnClick>HealBot_Options_PanelSounds_OnClick(self)</OnClick>
 								</Scripts>
-							</CheckButton>                            
-                            
+							</CheckButton>
+
                             <CheckButton name="HealBot_Options_PartyFrames" inherits="OptionsCheckButtonTemplate">
                                 <Anchors>
                                     <Anchor point="TOPLEFT" relativeTo="HealBot_Options_AutoShow" relativePoint="BOTTOMLEFT">>
@@ -2927,7 +2927,7 @@
                                     <OnClick>HealBot_Options_PlayerTargetFrames_OnClick(self)</OnClick>
                                 </Scripts>
                             </CheckButton>
-                            
+
                             <CheckButton name="HealBot_Options_VisibleRange" inherits="OptionsCheckButtonTemplate">
                                 <Anchors>
                                     <Anchor point="TOPLEFT" relativeTo="HealBot_Options_PartyFrames" relativePoint="BOTTOMLEFT">
@@ -2941,7 +2941,7 @@
                                     <OnClick>HealBot_Options_VisibleRange_OnClick(self)</OnClick>
                                 </Scripts>
                             </CheckButton>
-                            
+
 
                             <CheckButton name="HealBot_Options_UseFluidBars" inherits="OptionsCheckButtonTemplate">
                                 <Anchors>
@@ -3062,11 +3062,11 @@
 								<BarTexture file="Interface\TargetingFrame\UI-StatusBar"/>
 								<BarColor r="0" g="1" b="0"/>
 							</StatusBar>
-                    
+
                         </Frames>
                     </Frame>
 
-                    
+
 					<Frame name="HealBot_Options_HealingSkinsFrame">
 						<Size>
 							<AbsDimension y="358"/>
@@ -3316,9 +3316,9 @@
 									<OnClick>HealBot_Options_TargetMode_OnClick(self)</OnClick>
 								</Scripts>
 							</CheckButton>
-                            
-                            
-                            
+
+
+
                             <Button name="HealBot_SkinsSubFrameSelectHealAlertFrameb" inherits="UIPanelButtonTemplate">
                                 <Size>
                                     <AbsDimension x="100" y="18"/>
@@ -3454,8 +3454,8 @@
 								<BarTexture file="Interface\Addons\HealBot\Images\Tube"/>
 								<BarColor r="0.58" g="0.08" b="0.08"/>
 							</StatusBar>
-                            
-                            
+
+
                             <Frame name="HealBot_Options_HealAlertFrame">
                                 <Size>
                                     <AbsDimension y="140"/>
@@ -3527,8 +3527,8 @@
                                     </Frame>
                                 </Frames>
                             </Frame>
-                            
-                            
+
+
                             <Frame name="HealBot_Options_HealRaidFrame">
                                 <Size>
                                     <AbsDimension y="140"/>
@@ -3879,7 +3879,7 @@
                             </Frame>
 						</Frames>
                     </Frame>
-                    
+
 					<Frame name="HealBot_Options_IncHealsSkinsFrame">
 						<Size>
 							<AbsDimension y="358"/>
@@ -4004,8 +4004,8 @@
 							</Slider>
 						</Frames>
                     </Frame>
-                    
-                    
+
+
 					<Frame name="HealBot_Options_ChatSkinsFrame">
 						<Size>
 							<AbsDimension y="358"/>
@@ -4211,9 +4211,9 @@
 							</EditBox>
 						</Frames>
                     </Frame>
-                    
-                    
-                    
+
+
+
 					<Frame name="HealBot_Options_HeadersSkinsFrame">
 						<Size>
 							<AbsDimension y="358"/>
@@ -4437,12 +4437,12 @@
 									<OnLoad>HealBot_Options_val_OnLoad(self,HEALBOT_OPTIONS_SKINFHEIGHT,7,18,1)</OnLoad>
 									<OnValueChanged>HealBot_Options_HeadFontHeightS_OnValueChanged(self)</OnValueChanged>
 								</Scripts>
-							</Slider>								
+							</Slider>
 						</Frames>
 					</Frame>
 
-                    
-                    
+
+
 					<Frame name="HealBot_Options_BarsSkinsFrame">
 						<Size>
 							<AbsDimension y="358"/>
@@ -4775,8 +4775,8 @@
 							</StatusBar>
                         </Frames>
                     </Frame>
-                    
-                    
+
+
 					<Frame name="HealBot_Options_TextSkinsFrame">
 						<Size>
 							<AbsDimension y="358"/>
@@ -5645,7 +5645,7 @@
 								<BarTexture file="Interface\Addons\HealBot\Images\Tube"/>
 								<BarColor r="1" g="0.3" b="0.3"/>
 							</StatusBar>
-                            
+
                             <Button name="HealBot_CureFrameSelectCustomFrameb" inherits="UIPanelButtonTemplate">
                                 <Size>
                                     <AbsDimension x="100" y="18"/>
@@ -5691,7 +5691,7 @@
 								<BarTexture file="Interface\Addons\HealBot\Images\Tube"/>
 								<BarColor r="0.58" g="0.08" b="0.08"/>
 							</StatusBar>
-                            
+
                             <Button name="HealBot_CureFrameSelectWarningFrameb" inherits="UIPanelButtonTemplate">
                                 <Size>
                                     <AbsDimension x="100" y="18"/>
@@ -5737,10 +5737,10 @@
 								<BarTexture file="Interface\Addons\HealBot\Images\Tube"/>
 								<BarColor r="0.58" g="0.08" b="0.08"/>
 							</StatusBar>
-                                                       
+
                         </Frames>
                     </Frame>
-                    
+
 					<Frame name="HealBot_Options_CureDispelCleanse">
 						<Size>
 							<AbsDimension y="400"/>
@@ -7220,23 +7220,25 @@
 							</Layer>
 						</Layers>
 						<Frames>
-							<Frame name="HealBot_Options_BuffTxt1" inherits="UIDropDownMenuTemplate">
+							<EditBox name="HealBot_Options_BuffTxt1" inherits="HealBot_Options_EditBoxTemplate">
+								<Size><AbsDimension x="175" y="20" /></Size>
 								<Anchors>
 									<Anchor point="TOPLEFT">
 										<Offset>
-											<AbsDimension x="0" y="-25"/>
+											<AbsDimension x="25" y="-25"/>
 										</Offset>
 									</Anchor>
 								</Anchors>
 								<Scripts>
-									<OnLoad>HealBot_Options_BuffTxt1_OnLoad(self)</OnLoad>
+									<OnLoad>HealBot_Options_BuffTxt_OnLoad(self)</OnLoad>
+									<OnTextChanged>HealBot_Options_BuffTxt_OnTextChanged(self, 1)</OnTextChanged>
 								</Scripts>
-							</Frame>
+							</EditBox>
 							<Frame name="HealBot_Options_BuffGroups1" inherits="UIDropDownMenuTemplate">
 								<Anchors>
 									<Anchor point="TOPLEFT" relativeTo="HealBot_Options_BuffTxt1" relativePoint="TOPRIGHT">
 										<Offset>
-											<AbsDimension x="-10" y="0" />
+											<AbsDimension x="10" y="0" />
 										</Offset>
 									</Anchor>
 								</Anchors>
@@ -7276,7 +7278,8 @@
 								<BarTexture file="Interface\TargetingFrame\UI-StatusBar"/>
 								<BarColor r="0" g="1" b="0"/>
 							</StatusBar>
-							<Frame name="HealBot_Options_BuffTxt2" inherits="UIDropDownMenuTemplate">
+							<EditBox name="HealBot_Options_BuffTxt2" inherits="HealBot_Options_EditBoxTemplate">
+								<Size><AbsDimension x="175" y="20" /></Size>
 								<Anchors>
 									<Anchor point="TOPLEFT" relativeTo="HealBot_Options_BuffTxt1" relativePoint="BOTTOMLEFT">
 										<Offset>
@@ -7285,14 +7288,15 @@
 									</Anchor>
 								</Anchors>
 								<Scripts>
-									<OnLoad>HealBot_Options_BuffTxt2_OnLoad(self)</OnLoad>
+									<OnLoad>HealBot_Options_BuffTxt_OnLoad(self)</OnLoad>
+									<OnTextChanged>HealBot_Options_BuffTxt_OnTextChanged(self, 2)</OnTextChanged>
 								</Scripts>
-							</Frame>
+							</EditBox>
 							<Frame name="HealBot_Options_BuffGroups2" inherits="UIDropDownMenuTemplate">
 								<Anchors>
 									<Anchor point="TOPLEFT" relativeTo="HealBot_Options_BuffTxt2" relativePoint="TOPRIGHT">
 										<Offset>
-											<AbsDimension x="-10" y="0" />
+											<AbsDimension x="10" y="0" />
 										</Offset>
 									</Anchor>
 								</Anchors>
@@ -7332,7 +7336,8 @@
 								<BarTexture file="Interface\TargetingFrame\UI-StatusBar"/>
 								<BarColor r="0" g="1" b="0"/>
 							</StatusBar>
-							<Frame name="HealBot_Options_BuffTxt3" inherits="UIDropDownMenuTemplate">
+							<EditBox name="HealBot_Options_BuffTxt3" inherits="HealBot_Options_EditBoxTemplate">
+								<Size><AbsDimension x="175" y="20" /></Size>
 								<Anchors>
 									<Anchor point="TOPLEFT" relativeTo="HealBot_Options_BuffTxt2" relativePoint="BOTTOMLEFT">
 										<Offset>
@@ -7341,14 +7346,15 @@
 									</Anchor>
 								</Anchors>
 								<Scripts>
-									<OnLoad>HealBot_Options_BuffTxt3_OnLoad(self)</OnLoad>
+									<OnLoad>HealBot_Options_BuffTxt_OnLoad(self)</OnLoad>
+									<OnTextChanged>HealBot_Options_BuffTxt_OnTextChanged(self, 3)</OnTextChanged>
 								</Scripts>
-							</Frame>
+							</EditBox>
 							<Frame name="HealBot_Options_BuffGroups3" inherits="UIDropDownMenuTemplate">
 								<Anchors>
 									<Anchor point="TOPLEFT" relativeTo="HealBot_Options_BuffTxt3" relativePoint="TOPRIGHT">
 										<Offset>
-											<AbsDimension x="-10" y="0" />
+											<AbsDimension x="10" y="0" />
 										</Offset>
 									</Anchor>
 								</Anchors>
@@ -7388,7 +7394,8 @@
 								<BarTexture file="Interface\TargetingFrame\UI-StatusBar"/>
 								<BarColor r="0" g="1" b="0"/>
 							</StatusBar>
-							<Frame name="HealBot_Options_BuffTxt4" inherits="UIDropDownMenuTemplate">
+							<EditBox name="HealBot_Options_BuffTxt4" inherits="HealBot_Options_EditBoxTemplate">
+								<Size><AbsDimension x="175" y="20" /></Size>
 								<Anchors>
 									<Anchor point="TOPLEFT" relativeTo="HealBot_Options_BuffTxt3" relativePoint="BOTTOMLEFT">
 										<Offset>
@@ -7397,14 +7404,15 @@
 									</Anchor>
 								</Anchors>
 								<Scripts>
-									<OnLoad>HealBot_Options_BuffTxt4_OnLoad(self)</OnLoad>
+									<OnLoad>HealBot_Options_BuffTxt_OnLoad(self)</OnLoad>
+									<OnTextChanged>HealBot_Options_BuffTxt_OnTextChanged(self, 4)</OnTextChanged>
 								</Scripts>
-							</Frame>
+							</EditBox>
 							<Frame name="HealBot_Options_BuffGroups4" inherits="UIDropDownMenuTemplate">
 								<Anchors>
 									<Anchor point="TOPLEFT" relativeTo="HealBot_Options_BuffTxt4" relativePoint="TOPRIGHT">
 										<Offset>
-											<AbsDimension x="-10" y="0" />
+											<AbsDimension x="10" y="0" />
 										</Offset>
 									</Anchor>
 								</Anchors>
@@ -7444,7 +7452,8 @@
 								<BarTexture file="Interface\TargetingFrame\UI-StatusBar"/>
 								<BarColor r="0" g="1" b="0"/>
 							</StatusBar>
-							<Frame name="HealBot_Options_BuffTxt5" inherits="UIDropDownMenuTemplate">
+							<EditBox name="HealBot_Options_BuffTxt5" inherits="HealBot_Options_EditBoxTemplate">
+								<Size><AbsDimension x="175" y="20" /></Size>
 								<Anchors>
 									<Anchor point="TOPLEFT" relativeTo="HealBot_Options_BuffTxt4" relativePoint="BOTTOMLEFT">
 										<Offset>
@@ -7453,14 +7462,15 @@
 									</Anchor>
 								</Anchors>
 								<Scripts>
-									<OnLoad>HealBot_Options_BuffTxt5_OnLoad(self)</OnLoad>
+									<OnLoad>HealBot_Options_BuffTxt_OnLoad(self)</OnLoad>
+									<OnTextChanged>HealBot_Options_BuffTxt_OnTextChanged(self, 5)</OnTextChanged>
 								</Scripts>
-							</Frame>
+							</EditBox>
 							<Frame name="HealBot_Options_BuffGroups5" inherits="UIDropDownMenuTemplate">
 								<Anchors>
 									<Anchor point="TOPLEFT" relativeTo="HealBot_Options_BuffTxt5" relativePoint="TOPRIGHT">
 										<Offset>
-											<AbsDimension x="-10" y="0" />
+											<AbsDimension x="10" y="0" />
 										</Offset>
 									</Anchor>
 								</Anchors>
@@ -7500,7 +7510,8 @@
 								<BarTexture file="Interface\TargetingFrame\UI-StatusBar"/>
 								<BarColor r="0" g="1" b="0"/>
 							</StatusBar>
-							<Frame name="HealBot_Options_BuffTxt6" inherits="UIDropDownMenuTemplate">
+							<EditBox name="HealBot_Options_BuffTxt6" inherits="HealBot_Options_EditBoxTemplate">
+								<Size><AbsDimension x="175" y="20" /></Size>
 								<Anchors>
 									<Anchor point="TOPLEFT" relativeTo="HealBot_Options_BuffTxt5" relativePoint="BOTTOMLEFT">
 										<Offset>
@@ -7509,14 +7520,15 @@
 									</Anchor>
 								</Anchors>
 								<Scripts>
-									<OnLoad>HealBot_Options_BuffTxt6_OnLoad(self)</OnLoad>
+									<OnLoad>HealBot_Options_BuffTxt_OnLoad(self)</OnLoad>
+									<OnTextChanged>HealBot_Options_BuffTxt_OnTextChanged(self, 6)</OnTextChanged>
 								</Scripts>
-							</Frame>
+							</EditBox>
 							<Frame name="HealBot_Options_BuffGroups6" inherits="UIDropDownMenuTemplate">
 								<Anchors>
 									<Anchor point="TOPLEFT" relativeTo="HealBot_Options_BuffTxt6" relativePoint="TOPRIGHT">
 										<Offset>
-											<AbsDimension x="-10" y="0" />
+											<AbsDimension x="10" y="0" />
 										</Offset>
 									</Anchor>
 								</Anchors>
@@ -7556,7 +7568,8 @@
 								<BarTexture file="Interface\TargetingFrame\UI-StatusBar"/>
 								<BarColor r="0" g="1" b="0"/>
 							</StatusBar>
-							<Frame name="HealBot_Options_BuffTxt7" inherits="UIDropDownMenuTemplate">
+							<EditBox name="HealBot_Options_BuffTxt7" inherits="HealBot_Options_EditBoxTemplate">
+								<Size><AbsDimension x="175" y="20" /></Size>
 								<Anchors>
 									<Anchor point="TOPLEFT" relativeTo="HealBot_Options_BuffTxt6" relativePoint="BOTTOMLEFT">
 										<Offset>
@@ -7565,14 +7578,15 @@
 									</Anchor>
 								</Anchors>
 								<Scripts>
-									<OnLoad>HealBot_Options_BuffTxt7_OnLoad(self)</OnLoad>
+									<OnLoad>HealBot_Options_BuffTxt_OnLoad(self)</OnLoad>
+									<OnTextChanged>HealBot_Options_BuffTxt_OnTextChanged(self, 7)</OnTextChanged>
 								</Scripts>
-							</Frame>
+							</EditBox>
 							<Frame name="HealBot_Options_BuffGroups7" inherits="UIDropDownMenuTemplate">
 								<Anchors>
 									<Anchor point="TOPLEFT" relativeTo="HealBot_Options_BuffTxt7" relativePoint="TOPRIGHT">
 										<Offset>
-											<AbsDimension x="-10" y="0" />
+											<AbsDimension x="10" y="0" />
 										</Offset>
 									</Anchor>
 								</Anchors>
@@ -7612,7 +7626,8 @@
 								<BarTexture file="Interface\TargetingFrame\UI-StatusBar"/>
 								<BarColor r="0" g="1" b="0"/>
 							</StatusBar>
-							<Frame name="HealBot_Options_BuffTxt8" inherits="UIDropDownMenuTemplate">
+							<EditBox name="HealBot_Options_BuffTxt8" inherits="HealBot_Options_EditBoxTemplate">
+								<Size><AbsDimension x="175" y="20" /></Size>
 								<Anchors>
 									<Anchor point="TOPLEFT" relativeTo="HealBot_Options_BuffTxt7" relativePoint="BOTTOMLEFT">
 										<Offset>
@@ -7621,14 +7636,15 @@
 									</Anchor>
 								</Anchors>
 								<Scripts>
-									<OnLoad>HealBot_Options_BuffTxt8_OnLoad(self)</OnLoad>
+									<OnLoad>HealBot_Options_BuffTxt_OnLoad(self)</OnLoad>
+									<OnTextChanged>HealBot_Options_BuffTxt_OnTextChanged(self, 8)</OnTextChanged>
 								</Scripts>
-							</Frame>
+							</EditBox>
 							<Frame name="HealBot_Options_BuffGroups8" inherits="UIDropDownMenuTemplate">
 								<Anchors>
 									<Anchor point="TOPLEFT" relativeTo="HealBot_Options_BuffTxt8" relativePoint="TOPRIGHT">
 										<Offset>
-											<AbsDimension x="-10" y="0" />
+											<AbsDimension x="10" y="0" />
 										</Offset>
 									</Anchor>
 								</Anchors>
@@ -7668,7 +7684,8 @@
 								<BarTexture file="Interface\TargetingFrame\UI-StatusBar"/>
 								<BarColor r="0" g="1" b="0"/>
 							</StatusBar>
-							<Frame name="HealBot_Options_BuffTxt9" inherits="UIDropDownMenuTemplate">
+							<EditBox name="HealBot_Options_BuffTxt9" inherits="HealBot_Options_EditBoxTemplate">
+								<Size><AbsDimension x="175" y="20" /></Size>
 								<Anchors>
 									<Anchor point="TOPLEFT" relativeTo="HealBot_Options_BuffTxt8" relativePoint="BOTTOMLEFT">
 										<Offset>
@@ -7677,14 +7694,15 @@
 									</Anchor>
 								</Anchors>
 								<Scripts>
-									<OnLoad>HealBot_Options_BuffTxt9_OnLoad(self)</OnLoad>
+									<OnLoad>HealBot_Options_BuffTxt_OnLoad(self)</OnLoad>
+									<OnTextChanged>HealBot_Options_BuffTxt_OnTextChanged(self, 9)</OnTextChanged>
 								</Scripts>
-							</Frame>
+							</EditBox>
 							<Frame name="HealBot_Options_BuffGroups9" inherits="UIDropDownMenuTemplate">
 								<Anchors>
 									<Anchor point="TOPLEFT" relativeTo="HealBot_Options_BuffTxt9" relativePoint="TOPRIGHT">
 										<Offset>
-											<AbsDimension x="-10" y="0" />
+											<AbsDimension x="10" y="0" />
 										</Offset>
 									</Anchor>
 								</Anchors>
@@ -7724,7 +7742,8 @@
 								<BarTexture file="Interface\TargetingFrame\UI-StatusBar"/>
 								<BarColor r="0" g="1" b="0"/>
 							</StatusBar>
-							<Frame name="HealBot_Options_BuffTxt10" inherits="UIDropDownMenuTemplate">
+							<EditBox name="HealBot_Options_BuffTxt10" inherits="HealBot_Options_EditBoxTemplate">
+								<Size><AbsDimension x="175" y="20" /></Size>
 								<Anchors>
 									<Anchor point="TOPLEFT" relativeTo="HealBot_Options_BuffTxt9" relativePoint="BOTTOMLEFT">
 										<Offset>
@@ -7733,14 +7752,15 @@
 									</Anchor>
 								</Anchors>
 								<Scripts>
-									<OnLoad>HealBot_Options_BuffTxt10_OnLoad(self)</OnLoad>
+									<OnLoad>HealBot_Options_BuffTxt_OnLoad(self)</OnLoad>
+									<OnTextChanged>HealBot_Options_BuffTxt_OnTextChanged(self, 10)</OnTextChanged>
 								</Scripts>
-							</Frame>
+							</EditBox>
 							<Frame name="HealBot_Options_BuffGroups10" inherits="UIDropDownMenuTemplate">
 								<Anchors>
 									<Anchor point="TOPLEFT" relativeTo="HealBot_Options_BuffTxt10" relativePoint="TOPRIGHT">
 										<Offset>
-											<AbsDimension x="-10" y="0" />
+											<AbsDimension x="10" y="0" />
 										</Offset>
 									</Anchor>
 								</Anchors>
@@ -8266,7 +8286,7 @@
 					<OnClick>HideUIPanel(self:GetParent()); HealBot_Options_Close()</OnClick>
 				</Scripts>
 			</Button>
-       
+
 			<Button name="HealBot_OptionsTab1" inherits="HealBot_Options_Tab" id="1" text="HEALBOT_OPTIONS_TAB_GENERAL">
 				<Anchors>
 					<Anchor point="BOTTOMLEFT">

@@ -5066,73 +5066,43 @@ end
 
 local BuffSpellDropDownClass=nil
 function HealBot_Options_BuffTxt1_Refresh(onselect)
-    if not onselect then HealBot_Options_BuffTxt1_Initialize() end  -- or wrong menu may be used !
-    BuffTextClass = HealBot_Config.HealBotBuffText
-    if not BuffTextClass[HealBot_Options_getDropDownId_bySpec(1)] then BuffTextClass[HealBot_Options_getDropDownId_bySpec(1)]=HEALBOT_WORDS_NONE end;
-    UIDropDownMenu_SetSelectedValue(HealBot_Options_BuffTxt1,BuffTextClass[HealBot_Options_getDropDownId_bySpec(1)])
+    HealBot_Options_BuffTxt_Refresh(HealBot_Options_BuffTxt1, 1)
 end
 
 function HealBot_Options_BuffTxt2_Refresh(onselect)
-    if not onselect then HealBot_Options_BuffTxt2_Initialize() end  -- or wrong menu may be used !
-    BuffTextClass = HealBot_Config.HealBotBuffText
-    if not BuffTextClass[HealBot_Options_getDropDownId_bySpec(2)] then BuffTextClass[HealBot_Options_getDropDownId_bySpec(2)]=HEALBOT_WORDS_NONE end;
-    UIDropDownMenu_SetSelectedValue(HealBot_Options_BuffTxt2,BuffTextClass[HealBot_Options_getDropDownId_bySpec(2)])
+    HealBot_Options_BuffTxt_Refresh(HealBot_Options_BuffTxt2, 2)
 end
 
 function HealBot_Options_BuffTxt3_Refresh(onselect)
-    if not onselect then HealBot_Options_BuffTxt3_Initialize() end  -- or wrong menu may be used !
-    BuffTextClass = HealBot_Config.HealBotBuffText
-    if not BuffTextClass[HealBot_Options_getDropDownId_bySpec(3)] then BuffTextClass[HealBot_Options_getDropDownId_bySpec(3)]=HEALBOT_WORDS_NONE end;
-    UIDropDownMenu_SetSelectedValue(HealBot_Options_BuffTxt3,BuffTextClass[HealBot_Options_getDropDownId_bySpec(3)])
+    HealBot_Options_BuffTxt_Refresh(HealBot_Options_BuffTxt3, 3)
 end
 
 function HealBot_Options_BuffTxt4_Refresh(onselect)
-    if not onselect then HealBot_Options_BuffTxt4_Initialize() end  -- or wrong menu may be used !
-    BuffTextClass = HealBot_Config.HealBotBuffText
-    if not BuffTextClass[HealBot_Options_getDropDownId_bySpec(4)] then BuffTextClass[HealBot_Options_getDropDownId_bySpec(4)]=HEALBOT_WORDS_NONE end;
-    UIDropDownMenu_SetSelectedValue(HealBot_Options_BuffTxt4,BuffTextClass[HealBot_Options_getDropDownId_bySpec(4)])
+    HealBot_Options_BuffTxt_Refresh(HealBot_Options_BuffTxt4, 4)
 end
 
 function HealBot_Options_BuffTxt5_Refresh(onselect)
-    if not onselect then HealBot_Options_BuffTxt5_Initialize() end  -- or wrong menu may be used !
-    BuffTextClass = HealBot_Config.HealBotBuffText
-    if not BuffTextClass[HealBot_Options_getDropDownId_bySpec(5)] then BuffTextClass[HealBot_Options_getDropDownId_bySpec(5)]=HEALBOT_WORDS_NONE end;
-    UIDropDownMenu_SetSelectedValue(HealBot_Options_BuffTxt5,BuffTextClass[HealBot_Options_getDropDownId_bySpec(5)])
+    HealBot_Options_BuffTxt_Refresh(HealBot_Options_BuffTxt5, 5)
 end
 
 function HealBot_Options_BuffTxt6_Refresh(onselect)
-    if not onselect then HealBot_Options_BuffTxt6_Initialize() end  -- or wrong menu may be used !
-    BuffTextClass = HealBot_Config.HealBotBuffText
-    if not BuffTextClass[HealBot_Options_getDropDownId_bySpec(6)] then BuffTextClass[HealBot_Options_getDropDownId_bySpec(6)]=HEALBOT_WORDS_NONE end;
-    UIDropDownMenu_SetSelectedValue(HealBot_Options_BuffTxt6,BuffTextClass[HealBot_Options_getDropDownId_bySpec(6)])
+    HealBot_Options_BuffTxt_Refresh(HealBot_Options_BuffTxt6, 6)
 end
 
 function HealBot_Options_BuffTxt7_Refresh(onselect)
-    if not onselect then HealBot_Options_BuffTxt7_Initialize() end  -- or wrong menu may be used !
-    BuffTextClass = HealBot_Config.HealBotBuffText
-    if not BuffTextClass[HealBot_Options_getDropDownId_bySpec(7)] then BuffTextClass[HealBot_Options_getDropDownId_bySpec(7)]=HEALBOT_WORDS_NONE end;
-    UIDropDownMenu_SetSelectedValue(HealBot_Options_BuffTxt7,BuffTextClass[HealBot_Options_getDropDownId_bySpec(7)])
+    HealBot_Options_BuffTxt_Refresh(HealBot_Options_BuffTxt7, 7)
 end
 
 function HealBot_Options_BuffTxt8_Refresh(onselect)
-    if not onselect then HealBot_Options_BuffTxt8_Initialize() end  -- or wrong menu may be used !
-    BuffTextClass = HealBot_Config.HealBotBuffText
-    if not BuffTextClass[HealBot_Options_getDropDownId_bySpec(8)] then BuffTextClass[HealBot_Options_getDropDownId_bySpec(8)]=HEALBOT_WORDS_NONE end;
-    UIDropDownMenu_SetSelectedValue(HealBot_Options_BuffTxt8,BuffTextClass[HealBot_Options_getDropDownId_bySpec(8)])
+    HealBot_Options_BuffTxt_Refresh(HealBot_Options_BuffTxt8, 8)
 end
 
 function HealBot_Options_BuffTxt9_Refresh(onselect)
-    if not onselect then HealBot_Options_BuffTxt9_Initialize() end  -- or wrong menu may be used !
-    BuffTextClass = HealBot_Config.HealBotBuffText
-    if not BuffTextClass[HealBot_Options_getDropDownId_bySpec(9)] then BuffTextClass[HealBot_Options_getDropDownId_bySpec(9)]=HEALBOT_WORDS_NONE end;
-    UIDropDownMenu_SetSelectedValue(HealBot_Options_BuffTxt9,BuffTextClass[HealBot_Options_getDropDownId_bySpec(9)])
+    HealBot_Options_BuffTxt_Refresh(HealBot_Options_BuffTxt9, 9)
 end
 
 function HealBot_Options_BuffTxt10_Refresh(onselect)
-    if not onselect then HealBot_Options_BuffTxt10_Initialize() end  -- or wrong menu may be used !
-    BuffTextClass = HealBot_Config.HealBotBuffText
-    if not BuffTextClass[HealBot_Options_getDropDownId_bySpec(10)] then BuffTextClass[HealBot_Options_getDropDownId_bySpec(10)]=HEALBOT_WORDS_NONE  end;
-    UIDropDownMenu_SetSelectedValue(HealBot_Options_BuffTxt10,BuffTextClass[HealBot_Options_getDropDownId_bySpec(10)])
+    HealBot_Options_BuffTxt_Refresh(HealBot_Options_BuffTxt10, 10)
 end
 
 local BuffDropDownClass=nil
@@ -5206,54 +5176,16 @@ function HealBot_Options_BuffGroups10_Refresh(onselect)
     UIDropDownMenu_SetSelectedID(HealBot_Options_BuffGroups10,BuffDropDownClass[HealBot_Options_getDropDownId_bySpec(10)])
 end
 
-function HealBot_Options_BuffTxt1_OnLoad(self)
- --   HealBot_Options_BuffTxt1_Initialize()
-    UIDropDownMenu_SetWidth(self,175)
+function HealBot_Options_BuffTxt_OnLoad(self)
+    self:SetAutoFocus(false)
+    self:SetTextInsets(4, 4, 0, 0)
 end
 
-function HealBot_Options_BuffTxt2_OnLoad(self)
- --   HealBot_Options_BuffTxt2_Initialize()
-    UIDropDownMenu_SetWidth(self,175)
-end
-
-function HealBot_Options_BuffTxt3_OnLoad(self)
---    HealBot_Options_BuffTxt3_Initialize()
-    UIDropDownMenu_SetWidth(self,175)
-end
-
-function HealBot_Options_BuffTxt4_OnLoad(self)
- --   HealBot_Options_BuffTxt4_Initialize()
-    UIDropDownMenu_SetWidth(self,175)
-end
-
-function HealBot_Options_BuffTxt5_OnLoad(self)
- --   HealBot_Options_BuffTxt5_Initialize()
-    UIDropDownMenu_SetWidth(self,175)
-end
-
-function HealBot_Options_BuffTxt6_OnLoad(self)
- --   HealBot_Options_BuffTxt6_Initialize()
-    UIDropDownMenu_SetWidth(self,175)
-end
-
-function HealBot_Options_BuffTxt7_OnLoad(self)
- --   HealBot_Options_BuffTxt7_Initialize()
-    UIDropDownMenu_SetWidth(self,175)
-end
-
-function HealBot_Options_BuffTxt8_OnLoad(self)
- --   HealBot_Options_BuffTxt8_Initialize()
-    UIDropDownMenu_SetWidth(self,175)
-end
-
-function HealBot_Options_BuffTxt9_OnLoad(self)
- --   HealBot_Options_BuffTxt9_Initialize()
-    UIDropDownMenu_SetWidth(self,175)
-end
-
-function HealBot_Options_BuffTxt10_OnLoad(self)
- --   HealBot_Options_BuffTxt10_Initialize()
-    UIDropDownMenu_SetWidth(self,175)
+function HealBot_Options_BuffTxt_OnTextChanged(self, slot)
+    if not HealBot_Config then return end
+    local value = strtrim(self:GetText() or "")
+    HealBot_Config.HealBotBuffText[HealBot_Options_getDropDownId_bySpec(slot)] = value
+    HealBot_setOptions_Timer(40)
 end
 
 function HealBot_Options_BuffGroups1_OnLoad(self)
@@ -5306,74 +5238,12 @@ function HealBot_Options_BuffGroups10_OnLoad(self)
     UIDropDownMenu_SetWidth(self,95)
 end
 
-function HealBot_Options_BuffTxt1_OnSelect(self)
-    BuffTextClass = HealBot_Config.HealBotBuffText
-    BuffTextClass[HealBot_Options_getDropDownId_bySpec(1)] = self:GetText()
-    HealBot_Options_BuffTxt1_Refresh(true)
-    HealBot_setOptions_Timer(40)
-end
-
-function HealBot_Options_BuffTxt2_OnSelect(self)
-    BuffTextClass = HealBot_Config.HealBotBuffText
-    BuffTextClass[HealBot_Options_getDropDownId_bySpec(2)] = self:GetText()
-    HealBot_Options_BuffTxt2_Refresh(true)
-    HealBot_setOptions_Timer(40)
-end
-
-function HealBot_Options_BuffTxt3_OnSelect(self)
-    BuffTextClass = HealBot_Config.HealBotBuffText
-    BuffTextClass[HealBot_Options_getDropDownId_bySpec(3)] = self:GetText()
-    HealBot_Options_BuffTxt3_Refresh(true)
-    HealBot_setOptions_Timer(40)
-end
-
-function HealBot_Options_BuffTxt4_OnSelect(self)
-    BuffTextClass = HealBot_Config.HealBotBuffText
-    BuffTextClass[HealBot_Options_getDropDownId_bySpec(4)] = self:GetText()
-    HealBot_Options_BuffTxt4_Refresh(true)
-    HealBot_setOptions_Timer(40)
-end
-
-function HealBot_Options_BuffTxt5_OnSelect(self)
-    BuffTextClass = HealBot_Config.HealBotBuffText
-    BuffTextClass[HealBot_Options_getDropDownId_bySpec(5)] = self:GetText()
-    HealBot_Options_BuffTxt5_Refresh(true)
-    HealBot_setOptions_Timer(40)
-end
-
-function HealBot_Options_BuffTxt6_OnSelect(self)
-    BuffTextClass = HealBot_Config.HealBotBuffText
-    BuffTextClass[HealBot_Options_getDropDownId_bySpec(6)] = self:GetText()
-    HealBot_Options_BuffTxt6_Refresh(true)
-    HealBot_setOptions_Timer(40)
-end
-
-function HealBot_Options_BuffTxt7_OnSelect(self)
-    BuffTextClass = HealBot_Config.HealBotBuffText
-    BuffTextClass[HealBot_Options_getDropDownId_bySpec(7)] = self:GetText()
-    HealBot_Options_BuffTxt7_Refresh(true)
-    HealBot_setOptions_Timer(40)
-end
-
-function HealBot_Options_BuffTxt8_OnSelect(self)
-    BuffTextClass = HealBot_Config.HealBotBuffText
-    BuffTextClass[HealBot_Options_getDropDownId_bySpec(8)] = self:GetText()
-    HealBot_Options_BuffTxt8_Refresh(true)
-    HealBot_setOptions_Timer(40)
-end
-
-function HealBot_Options_BuffTxt9_OnSelect(self)
-    BuffTextClass = HealBot_Config.HealBotBuffText
-    BuffTextClass[HealBot_Options_getDropDownId_bySpec(9)] = self:GetText()
-    HealBot_Options_BuffTxt9_Refresh(true)
-    HealBot_setOptions_Timer(40)
-end
-
-function HealBot_Options_BuffTxt10_OnSelect(self)
-    BuffTextClass = HealBot_Config.HealBotBuffText
-    BuffTextClass[HealBot_Options_getDropDownId_bySpec(10)] = self:GetText()
-    HealBot_Options_BuffTxt10_Refresh(true)
-    HealBot_setOptions_Timer(40)
+function HealBot_Options_BuffTxt_Refresh(self, slot)
+    if not self then return end
+    local value = HealBot_Config.HealBotBuffText[HealBot_Options_getDropDownId_bySpec(slot)]
+    if value == nil then value = "" end
+    if value == HEALBOT_WORDS_NONE then value = "" end
+    if self:GetText() ~= value then self:SetText(value) end
 end
 
 function HealBot_Options_BuffGroups1_OnSelect(self)
@@ -6622,6 +6492,21 @@ local spells={}
 local Monitor_Buffs=nil
 local HealBot_BuffWatchTargetSpell=nil
 local FirstBuffLoad=true
+
+function HealBot_Options_ResolveBuff(value)
+    value = strtrim(value or "")
+    if value == "" or value == HEALBOT_WORDS_NONE then return nil end
+
+    local spellID = tonumber(value)
+    if spellID then
+        local spellName = GetSpellInfo(spellID)
+        if spellName then return spellName end
+        return nil
+    end
+
+    return value
+end
+
 function HealBot_Options_Buff_Reset()
     BuffTextClass = HealBot_Config.HealBotBuffText
     BuffDropDownClass = HealBot_Config.HealBotBuffDropDown
@@ -6649,8 +6534,7 @@ function HealBot_Options_Buff_Reset()
     
     for k=1,10 do
         if BuffDropDownClass[HealBot_Options_getDropDownId_bySpec(k)] and BuffDropDownClass[HealBot_Options_getDropDownId_bySpec(k)]>1 then
-            id=HealBot_GetSpellId(BuffTextClass[HealBot_Options_getDropDownId_bySpec(k)]);
-            sName,_ = HealBot_GetSpellName(id);
+            sName = HealBot_Options_ResolveBuff(BuffTextClass[HealBot_Options_getDropDownId_bySpec(k)])
 
             if sName then
                 if not spells[sName] then
